@@ -1,0 +1,283 @@
+.sidebar {
+    -fx-background-color: #696969;
+}
+
+
+.infoBlockmech {
+    -fx-background-color: #751e88;
+}
+
+.infoBlockmech:hover {
+    -fx-background-color: #4e0e5d;
+}
+
+.infoBlockpojazd {
+    -fx-background-color: #8d1c30;
+}
+
+.infoBlockpojazd:hover {
+    -fx-background-color: #691222;
+}
+
+.infoBlockVisit {
+    -fx-background-color: #a2a900;
+}
+
+.infoBlockVisit:hover {
+    -fx-background-color: #575b01;
+}
+
+.header {
+    -fx-background-color: white;
+}
+
+.mainWindow {
+-fx-background-color: #e9e7ec;
+}
+
+.wtext {
+        -fx-text-fill: white;
+}
+
+.button {
+-fx-background-color: #f1c40f;
+-fx-background-radius: 0;
+-fx-text-fill: #ffffff;
+-fx-font: 14px 'Open Sans';
+}
+
+.button:hover {
+-fx-background-color: #ffcc00;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-scale-z: 1.05;
+}
+
+.exitBtn:hover {
+-fx-background-color: #fc683f;
+}
+
+.button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: white;
+        -fx-border-width: 0 0 0 3;
+        -fx-background-insets: 0;
+}
+
+.searchbutton {
+-fx-background-color: #e6e6e6;
+-fx-background-radius: 3;
+-fx-text-fill: #3b3b3b;
+-fx-font: 10px Tahoma;
+}
+
+.searchbutton:hover {
+-fx-background-color: #adadad;
+-fx-font: 10px Tahoma;
+-fx-text-fill: #3b3b3b;
+}
+
+.title {
+-fx-text-fill: #f1c40f;
+-fx-font: 20px Tahoma;
+-fx-font-weight: bold;
+}
+
+.stats-line {
+-fx-text-fill: #ababab;
+-fx-font: 12px Tahoma;
+-fx-font-style: italic;
+}
+
+.savebutton {
+-fx-background-color: #f1c40f;
+-fx-background-radius: 20;
+-fx-text-fill: #ffffff;
+-fx-font: 14px Tahoma;
+}
+
+.savebutton:hover {
+-fx-background-color: #a2a900;
+-fx-text-fill: #ffffff;
+-fx-font: 14px Tahoma;
+}
+
+.cancelbutton {
+-fx-background-color: #7f7f7f;
+-fx-background-radius: 20;
+-fx-text-fill: #ffffff;
+-fx-font: 14px Tahoma;
+}
+
+.cancelbutton:hover {
+-fx-background-color: #757575;
+-fx-background-radius: 20;
+-fx-text-fill: #ffffff;
+-fx-font: 14px Tahoma;
+}
+
+.deletebutton {
+-fx-background-color: #fc583f;
+-fx-background-radius: 20;
+-fx-text-fill: #ffffff;
+-fx-font: 14px Tahoma;
+}
+
+.deletebutton:hover {
+-fx-background-color: #e34d36;
+-fx-text-fill: #ffffff;
+-fx-font: 14px Tahoma;
+}
+
+.addbutton {
+-fx-background-color: #5a0ff1;
+-fx-background-radius: 20;
+-fx-text-fill: #ffffff;
+-fx-font: 14px Tahoma;
+}
+
+.addbutton:hover {
+-fx-background-color: #0482b5;
+-fx-text-fill: #ffffff;
+-fx-font: 14px Tahoma;
+}
+
+
+.table-view .column-header, .table-view{
+    -fx-text-fill: black;
+    -fx-background-color: #e9e7ec;
+}
+
+.table-view .column-header .label{
+    -fx-alignment: CENTER_LEFT;
+    -fx-text-fill: #f1c40f;
+    -fx-padding: 10 0 10 10;
+    -fx-font: 12px 'Open Sans';
+    -fx-font-weight: bold;
+
+}
+
+.table-view .table-cell{
+    -fx-padding: 15 0 10 10;
+    -fx-table-cell-border-color:transparent;
+    -fx-text-fill: grey;
+}
+
+.table-row-cell{
+-fx-background-color: #fdfdfd;
+-fx-border-width:0 0 10 0;
+-fx-border-color:#e9e7ec;
+}
+
+.table-view .table-row-cell:hover{
+    -fx-background-color: #fff3f0;
+}
+
+.table-view .table-row-cell:selected{
+    -fx-background-color: #ffd9cf;
+-fx-border-color: #ff714a;
+}
+
+.table-view .filler {
+-fx-background-color: #e9e7ec;
+}
+
+.new-window-border  {
+-fx-background-color: #686868;
+-fx-background-radius: 3;
+-fx-border-color: #d0d0d0;
+-fx-border-width:5 5 5 5;
+}
+
+.main-window-border  {
+-fx-background-radius: 3;
+-fx-border-color: #696969;
+-fx-border-width:5 5 5 0;
+}
+
+.alertText {
+-fx-text-fill: red;
+-fx-font-style: bold;
+}
+
+.search-line {
+-fx-font: 14px Tahoma;
+-fx-text-fill: #ffffff;
+-fx-font-style: italic;
+}
+
+.search-term {
+-fx-font: 14px 'Tahoma Bk';
+-fx-text-fill: #686868;
+-fx-font-style: italic;
+}
+
+.login-field {
+-fx-font: 14px Tahoma;
+-fx-background-color: #f1c40f;
+-fx-border-width: 0 0 3 0;
+-fx-border-color: black;
+-fx-text-fill: #black;
+}
+
+.login-field:hover {
+-fx-font: 14px Tahoma;
+-fx-background-color: #f1c40f;
+-fx-border-width: 0 0 3 0;
+-fx-border-color: black;
+-fx-text-fill: #black;
+}
+
+.login-button {
+     -fx-background-color: #f1c40f;
+     -fx-border-color: #000000;
+     -fx-border-width: 3 3 3 3;
+     -fx-text-fill: #000000;
+}
+
+.login-button:hover {
+    -fx-background-color: #ffcc00;
+    -fx-border-color: #fff;
+    -fx-border-width: 3 3 3 3;
+    -fx-text-fill: #fff;
+}
+
+.exit-button {
+    -fx-background-color: #f1c40f;
+    -fx-border-color: #000000;
+    -fx-border-width: 3 3 3 3;
+    -fx-text-fill: #000000;
+      -fx-font-weight: bold;
+}
+
+.exit-button:hover {
+    -fx-background-color: #ffcc00;
+    -fx-border-color: #fff;
+    -fx-border-width: 3 3 3 3;
+    -fx-text-fill: #fff;
+      -fx-font-weight: bold;
+}
+
+.infoLine {
+-fx-font: 12px Tahoma;
+-fx-text-fill: #fc583f;
+}
+
+.login-window {
+-fx-border-color: #d0d0d0;
+-fx-border-width: 5 10 5 5;
+}
+
+.user-info {
+    -fx-font: 14px Arial;
+    -fx-text-fill: #f1c40f;
+    -fx-font-weight: bold;
+}
+
+.notification {
+    -fx-font: 11px Tahoma;
+    -fx-text-fill: #2d7514;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+}
